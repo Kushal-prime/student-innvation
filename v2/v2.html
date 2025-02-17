@@ -223,6 +223,20 @@
             display: block;
             margin-bottom: 20px;
         }
+
+        .card-poster {
+            margin: 5px auto; /* Center the poster */
+            width: 1000px; /* Set a fixed width */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Prevent image from creating extra space */
+        }
+
+        .card-poster img {
+            width: 100%; /* Image fills the container */
+            height: auto; /* Height adjusts to maintain aspect ratio */
+            display: block; /* Prevent image from creating extra space */
+        }
+
         /* Footer */
         footer {
             background: linear-gradient(90deg, #16213e, #0f3460);
@@ -317,6 +331,10 @@
         </div>
     </section>
 
+    <section id="card-poster" class="content">
+        <div class="card card-poster">
+            <img src="poster.jpg" alt="Poster">
+    </section>
 
     <section id="additional-content" class="content">
         <div class="card">
